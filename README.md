@@ -63,6 +63,10 @@ this layout has a Header Bar which has a nice search Bar for products, also it h
 ### daisyUI
 - utilized daisyui for nice styled components
 
+
+# Live
+[Amazon Clone](https://amazon-liart-six.vercel.app) 
+
 # Installation:
 
 1. Clone the repository to your local machine:
