@@ -35,7 +35,7 @@ this layout has a Header Bar which has a nice search Bar for products, also it h
 - this page contains all products which user views.
 
 ### User Reviews Page
-- this page has all authenticated users reviews on products and has the ability to delete them and update.
+- this page has all authenticated user reviews on products and has the ability to delete them and update.
 
 ### Login Page
 ### Signup Page
