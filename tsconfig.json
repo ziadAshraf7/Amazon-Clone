@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(client)/Header.ts", "src/app/(client)/Header.ts", "src/product-seed.js", "src/database/mangodb.js", "src/database/mangoose.js", "src/app/(client)/HeaderBottom.tsx", "src/app/(client)/HeaderTop.js", "src/app/(client)/filterationHeader.js", "src/app/(client)/ItemComponent.js", "src/app/items/(client)/filterHeader.tsx", "src/app/test/page.tsx"],
+  "exclude": ["node_modules"]
+}
