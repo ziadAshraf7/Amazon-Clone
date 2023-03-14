@@ -7,32 +7,32 @@ Welcome to my ecommerce site built with Next js.This README file will provide yo
 
 # About the Project:
 
--This project is an e-commerce website built using Nextjs, TypeScript, JWT, TailwindCss, daisy, and MongoDB. this site has several Product Categories which allow Customers to Search for Products throw a nice search bar, it also allows Customers to add products to their cart without being Authenticated and adjust the cart Product's quantity based on Product's Stock, also allows customers to Filter out product's based on their preference (Categories, Best Seller, Price Ranges, Brands, sorting, customer rating ...etc), also allows customers to leave a review on each product and filter out Product's reviews based on review rating and top reviews and most recent one  
+-This project is an e-commerce website built using Nextjs, TypeScript, JWT, TailwindCss, daisy, and MongoDB. this site has several Product Categories which allow Customers to Search for Products throw a nice search bar, Customers can add products to their cart without being Authenticated, they can adjust their cart Product quantity based on Product's Stock, also they can Filter out products based on their preference (Categories, Best Seller, Price Ranges, Brands, sorting, customer rating ...etc), they also can leave a review on each product and filter out Product's reviews based on review rating and top reviews and most recent one.  
 
 
 # Website Pages
 
 ### main Layout
 - this is not a page this is a layout that has all shared components between all Project Pages, 
-this layout has a Header Bar which has a nice search Bar for products, also it has two nice Carousels which contain related products that the user has viewed which are filtered out with the best seller, and another one which contains a random product's Category from categories which user viewed and also filtered out with best seller one      
+this layout has a Header Bar which has a nice search Bar for products, also it has two nice Carousels which contain related products that the user has viewed which are filtered out with the best seller one, and another one which contains a random products Category from categories which user has viewed and also filtered out with best seller one      
 
 ### Home Page (Categories Page)
 - this page has Product Categories and Nice Carousels which Contains best seller and top reviews of randomly product Categories  
 
 ### Products Page
-- this page has all products on the database and users are allowed to filter out this products based on their preference , Products are automatically Filtered Out based on Product's user has viewed which gives a good user experience, this page also has two carousels which contains best seller and top views product's based on category which filtered out 
+- this page has all products on the database , Users are allowed to filter out these products based on their preferences (Categories, Best Sellers, Price Ranges, Brands, sorting, customer rating ...etc), Products are automatically Filtered Out based on Products user has viewed which gives a good user experience, this page also has two carousels which contains best seller and top views products based on category user filtered out of products.
 
 ### Product Page
-- this page has all details the user needs. this page has a section bar that allows the customer to add the product to his cart and adjust the quantity based on the product's Stock, this Page also has two carousels which contains best seller and top views of the category to which the product belongs, this page also has the product's reviews section which contains all product's reviews which customers have left on this product
+- this page has all details about product user needs. this page has a section bar that allows the customer to add the product to his cart and adjust the quantity based on the product Stock, this Page also has two carousels that contains best seller and top views of the category to which the product belongs, this page also has a section for product reviews which contains all product reviews which customers have left on this product.
 
 ### Product Reviews 
-- this page has all customer's reviews on the product and has the top positive review and top critical reviews and also has the authenticated user's review if he had left a review on the product and can update his review, also has a section for all customer's reviews with nice sorting and search based on customer rating and top reviews and top recent one, also it implies from the user to be authenticated to have the right to leave a review on the product
+- this page has all customers reviews on the product, also has two sections for the top positive review and top critical one, and also has a section for an authenticated user review if he had left a review on that product, on this page user can update their reviews, this page also has a section for all customers reviews with nice sorting and search based on customer rating and top reviews and top recent one, also it implies from the user to be an authenticated one to have the right to leave a review on any product.
 
 ### Cart Page 
-- this page contains all products which the user added and has a section for a subtotal of products added and the total number of them, also it has a section for related products that are in Cart, user can adjust the product's quantity based on the product's Stock and also can delete any product he added to cart, each cart product has a nice modal which contains a nice comparison based on product's price and rating ...etc between the product and related product's to it. 
+- this page contains all products that the user added which not requires from user to be authenticated to add products to his cart, this page also has a section for a subtotal of products added and the total number of them, also it has a section for related products to which products are in user's cart, also user can adjust the product quantity based on  product Stock, user can delete any product he added, also each cart product has a nice modal with nice preview which contains a nice comparison based on product price and rating ...etc between the product and related products to it. 
 
 ### Browser History Page
-- this page contains all products which user views.
+- this page contains all products which user has viewed.
 
 ### User Reviews Page
 - this page has all authenticated user reviews on products and has the ability to delete them and update.
@@ -43,25 +43,25 @@ this layout has a Header Bar which has a nice search Bar for products, also it h
 
 # Technoligies
 ### Nextjs
-- utilized Nextjs for a high-quality website with good SEO and also used next js to build Rest API to interact with MongoDB which contains products and users and sessions data and handles users sessions and also handles linking between non-authenticated user sessions and authenticated user session 
+- Utilized Nextjs to build my rest API to interact with MongoDB to handle all necessary data and also to handle linking between unauthenticated user sessions and authenticated user sessions when the user logged in. Nextjs also helps me to build high-quality websites with good SEO. 
 
 ### TypeScipt 
-- utilized TypeScript fot fast debugging code.
+- Utilized TypeScript fot fast debugging code.
 
 ### MongoDB
-- utilized MongoDB to store all necessary data which contains users and products and sessions data, also used MongoDB to handle user authentication
+- Utilized MongoDB to store all necessary data which contains users and products and sessions data, also used MongoDB to handle user authentication
 
 ### JWT
-- utilized jwt to handle authenticated users session and handle protected pages 
+- Utilized jwt to handle authenticated users session and handle protected pages 
 
 ### next session library
-- utilized the next session library to create a session for non-authenticated users to allow them to add products to their cart and see their browser history products and see  products based on their preference 
+- Utilized  next session library to create a session for non-authenticated users to allow them to add products to their cart and see their browser history products and see products based on their preference without creating any accounts  
 
 ### Tailwind Css 
-- utilized Tailwind to build nice styling pages with highly Responsive web design which designed to be accessible on multiple devices, including desktops, tablets, and mobile phones.
+- Utilized Tailwind to build nice styling pages with highly Responsive web design which designed to be accessible on multiple devices, including desktops, tablets, and mobile phones.
 
 ### daisyUI
-- utilized daisyui for nice styled components
+- Utilized daisyui for nice styled components
 
 
 # Live
