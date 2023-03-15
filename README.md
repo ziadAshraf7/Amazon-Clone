@@ -7,7 +7,7 @@ Welcome to my ecommerce site built with Next js.This README file will provide yo
 
 # About the Project:
 
--This project is an e-commerce website built using Nextjs, TypeScript, JWT, TailwindCss, daisy, and MongoDB. this site has several Product Categories which allow Customers to Search for Products throw a nice search bar, Customers can add products to their cart without being Authenticated, they can adjust their cart Product quantity based on Product's Stock, also they can Filter out products based on their preference (Categories, Best Seller, Price Ranges, Brands, sorting, customer rating ...etc), they also can leave a review on each product and filter out Product's reviews based on review rating and top reviews and most recent one.  
+-This project is an e-commerce website built using Nextjs, TypeScript, SWR , JWT, TailwindCss, daisy, and MongoDB. this site has several Product Categories which allow Customers to Search for Products throw a nice search bar, Customers can add products to their cart without being Authenticated, they can adjust their cart Product quantity based on Product's Stock, also they can Filter out products based on their preference (Categories, Best Seller, Price Ranges, Brands, sorting, customer rating ...etc), they also can leave a review on each product and filter out Product's reviews based on review rating and top reviews and most recent one.  
 
 
 # Website Pages
