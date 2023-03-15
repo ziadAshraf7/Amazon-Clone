@@ -57,6 +57,10 @@ this layout has a Header Bar which has a nice search Bar for products, also it h
 ### next session library
 - Utilized  next session library to create a session for non-authenticated users to allow them to add products to their cart and see their browser history products and see products based on their preference without creating any accounts  
 
+### SWR
+- Utilized SWR to store data retrieved from the Server and cache it Client-Side and update it based on
+user interactivity so the user does not have to wait for server responses which give a good user experience
+
 ### Tailwind Css 
 - Utilized Tailwind to build nice styling pages with highly Responsive web design which designed to be accessible on multiple devices, including desktops, tablets, and mobile phones.
 
