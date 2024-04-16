@@ -1,72 +1,87 @@
 # Amazon-Clone
-E-Commerce Site
-
 
 # Intro
-Welcome to my ecommerce site built with Next js.This README file will provide you with all the necessary information about this project.
+Welcome to my E-Commerce site built with Next js.This README file will provide you with all the necessary information about this project.
 
-# About the Project:
+# E-Commerce Platform
 
--This project is an e-commerce website built using Nextjs, TypeScript, SWR , JWT, TailwindCss, daisy, and MongoDB. this site has several Product Categories which allow Customers to Search for Products throw a nice search bar, Customers can add products to their cart without being Authenticated, they can adjust their cart Product quantity based on Product's Stock, also they can Filter out products based on their preference (Categories, Best Seller, Price Ranges, Brands, sorting, customer rating ...etc), they also can leave a review on each product and filter out Product's reviews based on review rating and top reviews and most recent one.  
+## Overview
+This project is a robust e-commerce website built using Next.js, TypeScript, SWR, JWT, Tailwind CSS, daisyUI, and MongoDB. It serves as a comprehensive platform for online shopping, offering a wide range of features and functionalities to both customers and vendors.
 
+## Features
 
-# Website Pages
+### Customer Experience
+- **Product Categories:** Customers can browse through various product categories to find items of interest.
+- **Product Filtering:** Users can filter products based on categories, best sellers, price ranges, brands, and customer ratings.
+- **Product Search:** A user-friendly search bar allows customers to quickly find specific products.
+- **Product Reviews:** Customers can leave reviews for products and filter reviews based on rating and recency.
+- **Dynamic Recommendations:** Carousels display best-selling and top-viewed products related to the user's browsing history and selected categories.
 
-### main Layout
-- this is not a page this is a layout that has all shared components between all Project Pages, 
-this layout has a Header Bar which has a nice search Bar for products, also it has two nice Carousels which contain related products that the user has viewed which are filtered out with the best seller one, and another one which contains a random products Category from categories which user has viewed and also filtered out with best seller one      
+### Shopping Cart
+- **Add to Cart:** Customers can add products to their cart without needing to create an account.
+- **Cart Management:** Users can adjust product quantities and remove items from their cart.
+- **Subtotal Calculation:** The cart page displays the subtotal and total number of items in the cart.
+- **Product Comparison:** A modal provides a comparison between the selected product and related items in the cart.
+
+### User Interaction
+- **Authentication:** JWT is used for user authentication, allowing for protected pages and user sessions.
+- **Session Management:** Next session library creates sessions for non-authenticated users to enable cart functionality and personalized browsing.
+- **User Reviews:** Authenticated users can leave, update, and delete reviews for products.
+
+## Pages
+
+### Main Layout
+- A shared layout containing components such as a header bar with a search function and carousels displaying related products.
 
 ### Home Page (Categories Page)
-- this page has Product Categories and Nice Carousels which Contains best seller and top reviews of randomly product Categories  
+- Displays product categories and carousels featuring best sellers and top reviews of random product categories.
 
 ### Products Page
-- this page has all products on the database , Users are allowed to filter out these products based on their preferences (Categories, Best Sellers, Price Ranges, Brands, sorting, customer rating ...etc), Products are automatically Filtered Out based on Products user has viewed which gives a good user experience, this page also has two carousels which contains best seller and top views products based on category user filtered out of products.
+- Lists all products in the database with filtering options based on user preferences and browsing history.
+- Carousels showcase best sellers and top-viewed products based on the user's selected category.
 
 ### Product Page
-- this page has all details about product user needs. this page has a section bar that allows the customer to add the product to his cart and adjust the quantity based on the product Stock, this Page also has two carousels that contains best seller and top views of the category to which the product belongs, this page also has a section for product reviews which contains all product reviews which customers have left on this product.
+- Provides detailed information about a selected product, including the ability to add to cart and adjust quantity.
+- Features carousels displaying best sellers and top views of the product's category.
+- Includes a section for product reviews.
 
-### Product Reviews 
-- this page has all customers reviews on the product, also has two sections for the top positive review and top critical one, and also has a section for an authenticated user review if he had left a review on that product, on this page user can update their reviews, this page also has a section for all customers reviews with nice sorting and search based on customer rating and top reviews and top recent one, also it implies from the user to be an authenticated one to have the right to leave a review on any product.
+### Product Reviews Page
+- Shows all customer reviews for a specific product.
+- Includes sections for top positive and critical reviews, as well as authenticated user reviews.
+- Allows users to update their reviews and provides sorting and search functionality.
 
-### Cart Page 
-- this page contains all products that the user added which not requires from user to be authenticated to add products to his cart, this page also has a section for a subtotal of products added and the total number of them, also it has a section for related products to which products are in user's cart, also user can adjust the product quantity based on  product Stock, user can delete any product he added, also each cart product has a nice modal with nice preview which contains a nice comparison based on product price and rating ...etc between the product and related products to it. 
+### Cart Page
+- Displays all products added to the cart, with options to adjust quantities and remove items.
+- Shows related products and provides a product comparison modal.
 
 ### Browser History Page
-- this page contains all products which user has viewed.
+- Lists all products viewed by the user.
 
 ### User Reviews Page
-- this page has all authenticated user reviews on products and has the ability to delete them and update.
+- Displays all authenticated user reviews with options to delete and update them.
 
-### Login Page
-### Signup Page
+## Technologies
 
+### Next.js
+- Used for building the REST API and handling server-side rendering.
 
-# Technoligies
-### Nextjs
-- Utilized Nextjs to build my rest API to interact with MongoDB to handle all necessary data and also to handle linking between unauthenticated user sessions and authenticated user sessions when the user logged in. Nextjs also helps me to build high-quality websites with good SEO. 
-
-### TypeScipt 
-- Utilized TypeScript fot fast debugging code.
+### TypeScript
+- Utilized for faster debugging and type safety.
 
 ### MongoDB
-- Utilized MongoDB to store all necessary data which contains users and products and sessions data, also used MongoDB to handle user authentication
+- Stores all necessary data, including user and product information.
 
 ### JWT
-- Utilized jwt to handle authenticated users session and handle protected pages 
-
-### next session library
-- Utilized  next session library to create a session for non-authenticated users to allow them to add products to their cart and see their browser history products and see products based on their preference without creating any accounts  
+- Handles user authentication and session management.
 
 ### SWR
-- Utilized SWR to store data retrieved from the Server and cache it Client-Side and update it based on
-user interactivity so the user does not have to wait for server responses which give a good user experience
+- Stores and caches data retrieved from the server, providing a seamless user experience.
 
-### Tailwind Css 
-- Utilized Tailwind to build nice styling pages with highly Responsive web design which designed to be accessible on multiple devices, including desktops, tablets, and mobile phones.
+### Tailwind CSS
+- Enables highly responsive and aesthetically pleasing page designs.
 
 ### daisyUI
-- Utilized daisyui for nice styled components
-
+- Provides styled components for enhanced visual appeal.
 
 # Live
 [Amazon Clone](https://amazon-liart-six.vercel.app) 
